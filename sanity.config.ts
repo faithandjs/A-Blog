@@ -7,7 +7,8 @@ const projectId = process.env.NEXT_SANITY_PROJECT_ID || '';
 console.log(projectId);
 
 const config = defineConfig({
-  projectId,
+  projectId: 'dcj17n2g',
+  // projectId,
   dataset: 'production',
   title: 'Project Deba',
   apiVersion: '2023-11-15',
