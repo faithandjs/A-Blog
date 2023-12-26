@@ -1,10 +1,9 @@
 import { defineConfig } from 'sanity';
 import { deskTool } from 'sanity/desk';
 
-import schemas from './sanity/schema';
+import schemas from './src/app/schema';
 
 const projectId = process.env.NEXT_SANITY_PROJECT_ID || '';
-console.log(projectId);
 
 const config = defineConfig({
   projectId: 'dcj17n2g',
