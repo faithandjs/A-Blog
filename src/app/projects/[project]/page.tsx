@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { getProject, getProjects } from '../../utils/sanity-utils';
+import { getProject, getProjects } from '../../sanity/sanity-utils';
 
 export default async function page({
   params,

@@ -1,13 +1,11 @@
 import { defineConfig } from 'sanity';
 import { deskTool } from 'sanity/desk';
+import { projectId } from './src/app/sanity/sanity-api';
 
-import schemas from './src/app/schema';
-
-const projectId = process.env.NEXT_SANITY_PROJECT_ID || '';
+import schemas from './src/app/sanity/schema';
 
 const config = defineConfig({
-  projectId: 'dcj17n2g',
-  // projectId,
+  projectId,
   dataset: 'production',
   title: 'Project Deba',
   apiVersion: '2023-11-15',
