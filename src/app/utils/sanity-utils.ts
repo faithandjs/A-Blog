@@ -5,7 +5,8 @@ export async function getProjects() {
   console.log(projectId);
 
   const client = createClient({
-    projectId,
+    projectId: 'dcj17n2g',
+    // projectId,
     dataset: 'production',
     apiVersion: '2023-11-15',
   });
@@ -24,7 +25,8 @@ export async function getProject(slug: string) {
   console.log(projectId);
 
   const client = createClient({
-    projectId,
+    projectId: 'dcj17n2g',
+    // projectId,
     dataset: 'production',
     apiVersion: '2023-11-15',
   });
