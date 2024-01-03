@@ -15,6 +15,7 @@ export async function getProjects() {
     "slug":slug.current,
     "image":image.asset->url,
   }`
+    // { cache: 'no-store' }
   );
 }
 export async function getProject(slug: string) {
@@ -37,6 +38,7 @@ export async function getProject(slug: string) {
     dummy
   }`,
     { slug }
+    // { cache: 'no-store' }
   );
 }
 

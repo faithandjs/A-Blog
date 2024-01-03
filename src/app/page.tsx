@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { getProjects } from './sanity/sanity-utils';
-
+export const dynamic = 'force-dynamic';
 export default async function Home() {
   const projects = await getProjects();
 
